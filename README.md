@@ -45,7 +45,7 @@ Models Evaluated:
 - XGBoost: 0.913 F1 Macro
 - Tuned Random Forest: 0.903 F1 Macro (Selected)
 
-**### Model Performance**
+ Model Performance
 Model Comparison
 Model	Macro F1 Score	Precision	Recall	Status
 Random Forest	0.9817	0.98	0.98	Best Performance
@@ -66,7 +66,7 @@ Benign Positive (0)	0.98	0.99	0.98
 False Positive (1)	0.98	0.97	0.98
 True Positive (2)	0.99	0.98	0.99
 
-**### Project Structure**
+ Project Structure
 text
 cybersecurity-incident-classification/
 │
@@ -90,19 +90,19 @@ cybersecurity-incident-classification/
 ├── requirements.txt
 └── README.md
 
-**### Key Insights**
+ Key Insights
 Random Forest outperformed all other models with 0.9817 F1 Score
 Decision Tree overfitted severely (0.9968 F1 - unrealistic)
 ID columns removal prevented data leakage and improved generalization
 Class imbalance handling was crucial for balanced performance
 
-**### Future Improvements**
+ Future Improvements
 Experiment with Deep Learning models
 Implement SHAP values for better interpretability
 Add real-time prediction capabilities
 Develop API for integration with SOC platforms
 
-**### Acknowledgments**
+ Acknowledgments
 Microsoft for providing the GUIDE dataset
 Cybersecurity experts for domain guidance
 Open-source community for ML libraries and tools
