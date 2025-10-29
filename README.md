@@ -66,30 +66,6 @@ Benign Positive (0)	0.98	0.99	0.98
 False Positive (1)	0.98	0.97	0.98
 True Positive (2)	0.99	0.98	0.99
 
- Project Structure
-text
-cybersecurity-incident-classification/
-│
-├── data/
-│   ├── GUIDE_Train.csv
-│   └── GUIDE_Test.csv
-│
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   └── 03_model_training.ipynb
-│
-├── src/
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   └── model_training.py
-│
-├── models/
-│   └── final_random_forest.pkl
-│
-├── requirements.txt
-└── README.md
-
  Key Insights
 Random Forest outperformed all other models with 0.9817 F1 Score
 Decision Tree overfitted severely (0.9968 F1 - unrealistic)
